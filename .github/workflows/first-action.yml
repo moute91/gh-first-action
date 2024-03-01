@@ -7,4 +7,4 @@ jobs:
       - name: print holla
         run: echo "hola chico"
       - name: Print goodbye
-        run echo "Done - hasta la vista!"
+        run: echo "Done - hasta la vista!"
