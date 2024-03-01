@@ -4,7 +4,6 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps: 
-      - name: print holla
-        run: 
+       run: 
           echo "hola chico"
           echo "Done - hasta la vista!"
