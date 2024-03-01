@@ -4,7 +4,7 @@ jobs:
   test:
     runs-on: ubuntu-l
     steps: 
-      - name: Get cod
+      - name: Get code
         uses: action/
       - name: Install
         uses: action/
