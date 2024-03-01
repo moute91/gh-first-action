@@ -7,4 +7,11 @@ jobs:
       - name:
         run: 
             echo "hola chico"
-            echo "Done - hasta la vista!"
+            echo "Done - hast
+  deploy: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build project
+        run: npm run build
+      - name: Deploy
+        run: echo "deploying"
