@@ -1,0 +1,16 @@
+name: Test project
+on: push
+jobs: 
+  test:
+    runs-on: ubuntu-l
+    steps: 
+      - name: Get cod
+        uses: action/
+      - name: Install
+        uses: action/
+        with:
+          node-versio
+      - name: Install
+        run: npm ci
+      - name: Run tes
+        run: npm test
