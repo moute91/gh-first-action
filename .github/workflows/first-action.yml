@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: print holla
-        run: echo "hola chico"
-      - name: Print goodbye
-        run: echo "Done - hasta la vista!"
+        run: 
+          echo "hola chico"
+          echo "Done - hasta la vista!"
