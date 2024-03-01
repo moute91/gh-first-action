@@ -3,8 +3,8 @@ on: workflow_dispatch
 jobs: 
   first-job:
     runs-on: ubuntu-latest
-      steps: 
-        - name: print holla
-          run: echo "hola chico"
-        - name: Print goodbye
-          run echo "Done - hasta la vista!"
+    steps: 
+      - name: print holla
+        run: echo "hola chico"
+      - name: Print goodbye
+        run echo "Done - hasta la vista!"
