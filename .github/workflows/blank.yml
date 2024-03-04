@@ -1,0 +1,14 @@
+name: Artifact information
+on: workflow_dispatch
+jobs:
+  Infos:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Output Github context
+      run: echo "${{ toJSON(github) }}"
+    - name: Uplaod artifact
+      uses: actions/upload-artifact@v4
+        with:
+          name: tacs-artifact
+          path: |
+            README.md
