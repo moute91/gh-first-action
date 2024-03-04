@@ -10,7 +10,7 @@ jobs:
       run: echo "${{ toJSON(github) }}"
     - name: Uplaod artifact
       uses: actions/upload-artifact@v4
-        with:
-          name: tacs-artifact
-          path: |
-            README.md
+      with:
+        name: tacs-artifact
+        path: |
+          README.md
